@@ -12,7 +12,7 @@ class A1{
 		System.out.println("this is Show A");
 	}
 }
-class B extends A1{
+class B extends A1{ 
 	public B() {
 		System.out.println("this is constructor B");
 	}
