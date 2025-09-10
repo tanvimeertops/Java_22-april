@@ -14,9 +14,16 @@ package com.oops;
  * advantage
  * less code redundancy
  * less object creation
+ * 
+ * Encapsulation:wrapping of data in a single unit
+ * private :access within a class
+ * protected :access within the class and in child class 
+ * default :access within package
+ * public :access every where
+ * 
  */
 class Student{
-	int id;
+	protected int id;
 	String name;
 	
 	public void setData() {
