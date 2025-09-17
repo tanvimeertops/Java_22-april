@@ -22,6 +22,7 @@ class IDemo extends Result implements InterDemo{
 	public void show() {
 		System.out.println("roll_no is "+roll_no);
 		System.out.println("grade is :"+grade);
+		System.out.println("number is :"+i2);
 	}
 	
 }
