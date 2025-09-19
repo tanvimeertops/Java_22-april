@@ -11,7 +11,14 @@ package com.cmn_class;
  * boxing :value first given to variable to object
  * unboxing: object to variable
  * 
+ * Object class :It is a root class for all java class 
  */
+
+class Demo{
+	public void show() {
+		System.out.println("tHIS is demo class");
+	}
+}
 public class WrapperClassDemo {
 public static void main(String[] args) {
 	StringBuffer str=new StringBuffer("This is Tops Technologies");
@@ -29,6 +36,8 @@ public static void main(String[] args) {
 	int i4=Integer.parseInt(str2);
 	
 	System.out.println(i3+i4);
+	
+	Demo d1=new Demo();
 	
 }
 }
