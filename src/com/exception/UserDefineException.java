@@ -59,7 +59,7 @@ public static void main(String[] args) {
 		atm.withdraw(amount);
 	} catch (TanviException e) {
 		// TODO Auto-generated catch block
-		e.printStackTrace();
+//		e.printStackTrace();
 		System.out.println("If you deposit "+e.amount+" rs"+ 
 		"more you can withdraw "+amount);
 	}
